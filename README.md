@@ -40,20 +40,19 @@ if any errors (other than postponed matches) are detected, the program exits.
 
 ## Usage:
 
--Run from command line or Thonny:
-	-python pl_table_generator.py
-
--Make sure match_week_x.csv files are in the same folder.
--Match week files must include the header: Team_Home,Home_Score,Team_Away,Away_Score
--Teams in the match week files must match the whitelist exactly.
--There must be 20 teams in the whitelist.
+- Run from command line or Thonny:
+	- python pl_table_generator.py
+- Ensure sure match_week_x.csv files are in the same folder.
+- Match week files must include the header: Team_Home,Home_Score,Team_Away,Away_Score
+- Teams in the match week files must match the whitelist exactly.
+- There must be 20 teams in the whitelist.
 
 If errors are found, they'll be printed in the console with the row and column the error was found.
 
 ##Version History:
 
-v1 - Core validation, table generation, CSV export
-v2(planned) - Helper functions, postponed-match logic, cross file duplication check, improved error handling.
+- V1 - Core validation, table generation, CSV export
+- V2(planned) - Helper functions, postponed-match logic, cross file duplication check, improved error handling.
 
 ## Author:
 
