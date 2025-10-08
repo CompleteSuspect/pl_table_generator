@@ -133,15 +133,10 @@ def get_fixtures(file_name, white_list):
     
     return (valids, errors)
 
-#check for None and exit
-#start building dicts gf, ga,
-
-#whitelist check if empty
-#match_week check if empty
-
+#PL_table dictionary before sort
 table = {}
 
-#main input file loop
+#main input_file loop
 week = 1
 while True:
     file_name = f"match_week_{week}.csv"
