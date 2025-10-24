@@ -1,2 +1,0 @@
-match_week_*.csv
-whitelist.txt

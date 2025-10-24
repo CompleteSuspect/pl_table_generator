@@ -1,0 +1,10 @@
+Nottm_Forest,0,Chelsea,3
+Sunderland,2,Wolves,0
+Burnley2,Leeds_United,0
+Crystal_Palace,3,Bournemouth,3
+Brighton,2,Newcastle,1
+Man_City,2,Everton,0
+Fulham,0,Arsenal,1
+Tottenham,1,Aston_Villa,2
+Liverpool,1,Man_United,2
+West_Ham,0,Brentford,2

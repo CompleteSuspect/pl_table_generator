@@ -46,7 +46,7 @@ def get_fixtures(file_name, white_list):
         
         #check for not 4 fields, discard row if True
         if len(fields) != 4:
-            row_errors.append({"error": "NOT_4_FIELDS",
+            errors.append({"error": "NOT_4_FIELDS",
              "data": fixture,
              "row_idx": row_idx,
              "col_idx": None
@@ -98,8 +98,7 @@ def get_fixtures(file_name, white_list):
                                            "col_idx": col_idx
                                           })
                     
-            #end of per field actions
-                    
+            #end of per field actions  
         if row_errors:
             errors.extend(row_errors)
         
@@ -154,7 +153,6 @@ while True:
         for e in errors:
             if e["error"] != "POSTPONED":
                 print(e)
-        sys.exit(1)
     
     #unpacking fixtures into 4 variables
     for fx in fixtures:
@@ -178,9 +176,9 @@ while True:
         table[a_t]["played"] += 1
         
         if h_s > a_s:
-            table[h_t]["wins"] +=1
+            table[h_t]["wins"] += 1
             table[h_t]["points"] += 3
-            table[a_t]["losses"] +=1
+            table[a_t]["losses"] += 1
             
         elif h_s < a_s:
             table[a_t]["wins"] += 1
